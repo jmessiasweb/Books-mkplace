@@ -1,6 +1,7 @@
-import React from  'react';
-import {Link} from 'react-router-dom';
-import{FiPower, FiEdit, FiTrash2} from 'react-icons';
+import React, {useState, useEffect} from  'react';
+import {useHistory, Link} from 'react-router-dom';
+import{FiPower, FiEdit, FiTrash2} from 'react-icons/fi';
+import api from '../../services/api';
 import './style.css';
 import logoImage from '../../assets/logo.svg';
 
